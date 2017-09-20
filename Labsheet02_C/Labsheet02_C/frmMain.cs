@@ -36,7 +36,7 @@ namespace Labsheet02_C
 
             if (isCanParse)
             {
-                textResult += String.Format("Text: {0}\n", TEXT_OF_NUMBER);
+                textResult += String.Format("Text: {0}\n", value);
                 textResult += String.Format("Decimal: {0}\n", numResult);
                 textResult += String.Format("Double: {0}\n", (double)numResult);
                 textResult += String.Format("Float: {0}\n", (float)numResult);
